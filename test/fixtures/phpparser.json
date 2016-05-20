@@ -1,0 +1,210 @@
+{
+  "0":{
+    "lines":[
+
+    ],
+    "questions":[
+
+    ]
+  },
+  "1":{
+    "lines":[
+      ""
+    ],
+    "questions":[
+
+    ]
+  },
+  "2":{
+    "lines":[
+      "question",
+      "- option1",
+      "+ option2"
+    ],
+    "questions":[
+      {
+        "title":"question",
+        "type":"single",
+        "options":[
+          "option1",
+          "option2"
+        ],
+        "answer":1
+      }
+    ]
+  },
+  "single alt syntax":{
+    "lines":[
+      "question",
+      "() option1",
+      "( ) option2",
+      "(x) option3"
+    ],
+    "questions":[
+      {
+        "title":"question",
+        "type":"single",
+        "options":[
+          "option1",
+          "option2",
+          "option3"
+        ],
+        "answer":2
+      }
+    ]
+  },
+  "3":{
+    "lines":[
+      "",
+      "question",
+      "next",
+      "- option1",
+      "next",
+      "+ option2",
+      "next",
+      ""
+    ],
+    "questions":[
+      {
+        "title":"question next",
+        "type":"single",
+        "options":[
+          "option1 next",
+          "option2 next"
+        ],
+        "answer":1
+      }
+    ]
+  },
+  "many questions":{
+    "lines":[
+      "question1",
+      "- option11",
+      "+ option12",
+      "",
+      "question2",
+      "- option21",
+      "+ option22"
+    ],
+    "questions":[
+      {
+        "title":"question1",
+        "type":"single",
+        "options":[
+          "option11",
+          "option12"
+        ],
+        "answer":1
+      },
+      {
+        "title":"question2",
+        "type":"single",
+        "options":[
+          "option21",
+          "option22"
+        ],
+        "answer":1
+      }
+    ]
+  },
+  "4":{
+    "lines":[
+      "multi",
+      "- option1",
+      "+ option2",
+      "+ option3"
+    ],
+    "questions":[
+      {
+        "title":"multi",
+        "type":"multi",
+        "options":[
+          "option1",
+          "option2",
+          "option3"
+        ],
+        "answer":[
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  "5":{
+    "lines":[
+      "multi with *",
+      "* option1",
+      "+ option2"
+    ],
+    "questions":[
+      {
+        "title":"multi with *",
+        "type":"multi",
+        "options":[
+          "option1",
+          "option2"
+        ],
+        "answer":[
+          1
+        ]
+      }
+    ]
+  },
+  "multi alt syntax":{
+    "lines":[
+      "multi alt syntax",
+      "[] option1",
+      "[ ] option2",
+      "[x] option3"
+    ],
+    "questions":[
+      {
+        "title":"multi alt syntax",
+        "type":"multi",
+        "options":[
+          "option1",
+          "option2",
+          "option3"
+        ],
+        "answer":[
+          2
+        ]
+      }
+    ]
+  },
+  "6":{
+    "lines":[
+      "string type",
+      "= answer"
+    ],
+    "questions":[
+      {
+        "title":"string type",
+        "type":"string",
+        "options":[
+
+        ],
+        "answer":"answer"
+      }
+    ]
+  },
+  "quiz with title":{
+    "lines":[
+      "title",
+      "",
+      "string type",
+      "= answer"
+    ],
+    "questions":[
+      {
+        "title":"string type",
+        "type":"string",
+        "options":[
+
+        ],
+        "answer":"answer"
+      }
+    ],
+    "title":"title"
+  }
+}
